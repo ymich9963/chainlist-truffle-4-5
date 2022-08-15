@@ -2,7 +2,9 @@
 
 This Truffle Box has all you need to create a DApp by following the course delivered by [ChainSkills](https://www.udemy.com/getting-started-with-ethereum-solidity-development/).
 
-This box has been based from [pet-shop-box](https://github.com/truffle-box/pet-shop-box).
+This box has been based from [pet-shop-box](https://github.com/truffle-box/pet-shop-box).#
+
+This project has code both for Truffle 4 and Truffle 5 due to the course being outdated.
 
 ## Installation
 
