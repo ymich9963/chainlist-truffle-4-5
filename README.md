@@ -8,7 +8,9 @@ This project has code both for Truffle 4 and Truffle 5 due to the course being o
 
 The file app.js uses downloaded truffle-contract.js, web3.js and bootstrap.js that were compatible with Truffle 4 at the time. The Truffle 5 compatible files also have a "-new" suffix.
 
-I will give instructions on how to install and use the smart contract using Ganache and MetaMask. By default it uses Truffle 4 unless you rename the files as explained below.
+I will give instructions on how to install and use the smart contract using Ganache and MetaMask. By default it uses Truffle 4 unless you rename the files as explained below or by runninng the provided scripts.
+
+The Solidity code is up to date with the one specified in the pragma statement, therefore no need to rename the .sol files.
 
 ## Installation
 
@@ -41,4 +43,4 @@ I will give instructions on how to install and use the smart contract using Gana
 7. Now you may sell and buy articles using the Ganache in-memory node to interact with the smart contract.
 
 
-8. Removing the "-new" suffix and adding "-old" to the plain files will let the program run with Truffle 5 instead of Truffle 4.
+8. Removing the "-new" suffix and adding "-old" to the plain files will let the program run with Truffle 5 instead of Truffle 4. You can use the rename scripts I created to ease with changing the version currently used.
